@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <math.h>
 
-#define UT 6 // Колличество Unit тестов
+#define UT 6 // Количество Unit тестов
 
 #define UNIT_TESTS  
 
@@ -33,7 +33,7 @@ void PrintAns(int n, double x) {
 // Solve возвращает колличетсво решений.
 int Solve(double a, double b, double c, double* x) {
 
-	// Рассматриваем случаи при нулевых коэффицентах
+	// Рассматриваем случаи при нулевых коэффициентах
 	if (isNull(a) && isNull(b) && isNull(c)) return -1;
 	else if (isNull(a) && isNull(b)) return 0;
 	else if (isNull(a)) {
